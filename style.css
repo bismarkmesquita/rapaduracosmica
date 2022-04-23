@@ -1,0 +1,1297 @@
+body {
+    background: #E7DFDD;
+}
+
+header {
+    background: #001251;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.producao {
+    width: 320px;
+    height: 29.28px;
+
+    max-width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    .producao {
+        min-width: 230px;
+        min-height: 21.09px;
+    }
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+/*banner*/
+.main_content_banner {
+    background: #4717F6;
+    text-align: center;
+    max-height: 460px;
+    z-index: 1;
+}
+
+.main_content_banner img {
+    position: relative;
+    width: 631.15px;
+    height: 550px;
+}
+
+/*cta*/
+.main_content_cta {
+    background: #E7DFDD;
+    margin: 120px 0px;
+}
+
+.cta_conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.cta_header {
+    background: #E7DFDD;
+    z-index: 2;
+}
+
+.cta_header h1 {
+    position: static;
+    width: 488px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Xilosa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+
+    color: #0E0B16;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.cta_header a {
+    text-decoration: none;
+
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Xilosa';
+    background: #4717F6;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.3);
+}
+
+.cta_header a:hover {
+    background: #3400F4;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.5)
+}
+
+.cta_header a:active {
+    background: #2D03CA;
+}
+
+.cta_descricao {
+    position: static;
+    width: 488px;
+    left: 0px;
+    top: 109px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    /* or 29px */
+    
+    
+    color: #0E0B16;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 25px 0px;
+}
+
+.cta_video {
+    display: contents;
+}
+
+.cta_video iframe {
+    border: 5px dashed #0E0B16;
+    padding: 5px;
+}
+
+/*conexão com o leitor*/
+.conexao_conteudo {
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 64px 0px;
+}
+
+.conexao_conteudo img {
+    width: 400px;
+    height: 400px;
+    padding: 0px 70px 70px 0px;
+}
+
+.conexao_conteudo_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.conexao_conteudo_02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.conexao_conteudo_03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.conexao_texto h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+    width: 90%;
+    margin-bottom: 20px;
+
+    color: #0E0B16;
+}
+
+.conexao_texto p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+
+    width: 90%;
+
+    color: #0E0B16;
+}
+
+/*instrutor*/
+.instrutor {
+    background: rgba(71, 23, 246, 0.4);
+}
+
+.instrutor_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    padding: 60px;
+    margin: auto;
+    width: 80%;
+}
+
+.instrutor_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 0 0 32px 0;
+}
+
+.instrutor_main_texto h2 {
+    font-family: 'Xilosa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+
+    padding: 0px 0px 30px 144px;
+    width: 70%;
+
+    color: #0E0B16;
+}
+
+.instrutor_main_texto p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+
+    width: 80%;
+    padding: 0px 0px 30px 144px;
+
+    color: #0E0B16;
+}
+
+.instrutor_main_texto ul {
+    list-style: disc;
+    padding: 0px 0px 30px 174px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+
+    width: 70%;
+
+    color: #0E0B16;
+}
+
+.instrutor_main_texto b {
+    font-weight: 600;
+}
+
+.instrutor_imagens {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 0 0 96px 0;
+}
+
+.instrutor_imagens img {
+    max-width: 100%;
+}
+
+
+.modulos_botao {
+    position: relative;
+    text-align: center;
+    top: -32px;
+}
+
+.modulos_botao a {
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #FEFEFE;
+    font-family: 'Xilosa';
+    background: #4717F6;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.3);
+}
+
+.modulos_botao a:hover {
+    background: #3400F4;
+    box-shadow: 10px 10px 30px rgba(8, 3, 110, 0.5);
+}
+
+.modulos_botao a:active {
+    background: #2D03CA;
+}
+
+/*módulos*/
+.modulos_header {
+    font-family: 'xilosa';
+    font-size: 42px;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.modulos_box {
+    font-family: 'Montserrat';
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.modulos_box_int {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 60px;
+}
+
+.modulos_box img {
+    width: 277px;
+    height: 231.18px;
+}
+
+.modulos_box h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.modulos_box b {
+    font-weight: 700;
+}
+
+.modulos_box p {
+    font-size: 16px;
+}
+
+/*bônus*/
+.bonus_header h1 {
+    font-family: 'xilosa';
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bonus_header p {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.bonus_box {
+    font-family: 'Montserrat';
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bonus_box_int {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 60px;
+}
+
+.bonus_box img {
+    width: 250px;
+    height: 250px;
+}
+
+.bonus_box h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.bonus_box b {
+    font-weight: 700;
+}
+
+.bonus_box p {
+    font-size: 16px;
+}
+
+.bonus_botao {
+    text-align: center;
+}
+
+.bonus_botao p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #0E0B16;
+
+    margin-bottom: px;
+}
+
+.bonus_botao a {
+    text-decoration: none;
+
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Xilosa';
+    background: #4717F6;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.3);
+
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.bonus_botao a:hover {
+    background: #3400F4;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.5)
+}
+
+.bonus_botao a:active {
+    background: #2D03CA;
+}
+
+/* prova social*/
+.prova {
+    background: rgba(231, 223, 221, 0.7);
+}
+
+.prova_conteudo {
+    padding: 64px 0;
+}
+
+.prova_header h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+
+.prova_header p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    width: 75%;
+    margin: auto;
+}
+
+.prova_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.prova_box img {
+    position: relative;
+    top: 60px;
+
+    border: 4px solid #4717F6;
+    border-radius: 360px;
+}
+
+.prova_box h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FEFEFE;
+
+    background: rgba(71, 23, 246, 0.85);
+    border-radius: 20px;
+}
+
+.prova_box h1 b {
+    font-weight: 700;
+}
+
+.prova_h1_01 {
+    padding: 96px 8px 128px 8px;
+    width: 267px;
+    height: 129px;
+}
+
+.prova_h1_02 {
+    padding: 96px 8px 96px 8px;
+    width: 262px;
+    height: 162px;
+}
+
+.prova_h1_03 {
+    padding: 80px 8px 84px 8px;
+    width: 267px;
+    height: 189px;
+}
+
+.prova_h1_04 {
+    padding: 104px 8px 112px 8px;
+    width: 274px;
+    height: 135px;
+}
+
+.prova_box p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    position: relative;
+    top: -60px;
+
+    color: #FEFEFE;
+}
+
+
+/* um lindo certificado */
+.certificado {
+    background: linear-gradient(180deg, rgba(71, 23, 246, 0.07) 0%, rgba(71, 23, 246, 0.21) 100%);
+}
+
+.certificado_conteudo {
+    text-align: center;
+}
+
+.certificado_conteudo h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    width: 65%;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+
+.certificado_conteudo img {
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.3);
+    margin-bottom: 64px;
+    width: 70%;
+    height: 70%;
+}
+
+/* garantia */
+.garantia {
+    background: linear-gradient(180deg, rgba(71, 23, 246, 0.21) 0%, rgba(71, 23, 246, 0.35) 100%);
+}
+
+.garantia_conteudo {
+    text-align: center;
+    padding: 64px 0;
+}
+
+.garantia_conteudo h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    width: 65%;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+
+.garantia_conteudo_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.garantia_conteudo_main img {
+    width: 214px;
+    height: 214px;
+}
+
+.garantia_texto {
+    display: inline-block;
+    text-align: initial;
+    padding: 0 0 0 50px;
+}
+
+.garantia_conteudo h2 {
+    font-family: 'Xilosa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 24px;
+
+    color: #0E0B16;
+}
+
+.garantia_conteudo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    /* or 29px */
+
+    width: 69%;
+    display: inline-block;
+
+    color: #0E0B16;
+}
+
+/* benefícios */
+.beneficios {
+    background: linear-gradient(180deg, rgba(71, 23, 246, 0.35) 0%, rgba(71, 23, 246, 0.7) 100%);
+}
+
+.beneficios_conteudo {
+    text-align: center;
+    padding: 120px 0 0 0;
+}
+
+
+
+.beneficios_oferta p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    display: inline-block;
+    
+    color: #FEFEFE;
+    
+    opacity: 0.8;
+
+    position: relative;
+    right: -496px;
+    top: -40px;
+}
+
+.beneficios_oferta h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #FEFEFE;
+
+    background: #0E0B16;
+    padding: 40px 50px 40px 144px;
+    display: inline-block;
+    border-radius: 20px;
+
+    position: relative;
+    top: 48px;
+    right: 84px;
+
+    z-index: 3;
+}
+
+.beneficios_oferta img {
+    position: relative;
+    top: 308px;
+    right: 308px;
+    margin-top: -230px;
+    z-index: 4;
+}
+
+.beneficios_lista ul {
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background: rgba(71, 23, 246, 0.6);
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.3);
+
+    padding: 72px 96px 192px 96px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+.beneficios_lista li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #FEFEFE;
+
+    text-align: left;
+}
+
+.material-icons {
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.beneficios_botao a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Xilosa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+
+    padding: 16px 40px;
+    display: inline-block;
+
+    color: #FEFEFE;
+
+    background: #000000;
+    box-shadow: 10px 10px 30px rgba(14, 11, 22, 0.3);
+    border-radius: 10px;
+
+    position: relative;
+    top: -120px;
+
+    z-index: 2;
+}
+
+.beneficios_botao a:hover {
+    background: #000000;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.motivacao {
+    background: #4717F6;
+}
+
+.motivacao_conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.motivacao_conteudo img {
+    Width: 324px;
+    Height: 243px;
+}
+
+.motivacao_conteudo h1 {
+    font-family: 'Xilosa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FEFEFE;
+
+    width: 70%;
+    padding: 0 0 0 150px;
+}
+
+/* dúvidas frequentes */
+.faq {
+    background: #E7DFDD; 
+    padding: 64px;
+}
+
+.faq_header h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    margin: 0px 0 8px 0;
+}
+
+.faq_header p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #0E0B16;
+
+    margin-bottom: 64px;
+}
+
+.faq_box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.faq_box_int {
+    text-align: center;
+    flex-basis: calc(30% - 30px);
+    margin-bottom: 30px;
+    background: rgba(254, 254, 254, 0.5);
+    padding: 70px 20px;
+    box-shadow: 10px 10px 30px rgba(71, 23, 246, 0.1);
+}
+
+.faq_box h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0E0B16;
+
+    margin-bottom: 24px;
+}
+
+.faq_box p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #0E0B16;
+}
+
+.faq_box span {
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: #4717F6;
+}
+
+footer {
+    background: #001251;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 930px) {
+    .responsive {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}
+
+
+/* banner responsivo */
+@media screen and (max-width: 930px) {
+    .main_content_banner {
+        max-height: 445px;
+    }
+
+    .main_content_banner img {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_content_banner {
+        max-height: 360px;
+    }
+
+    .main_content_banner img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* cta reponsivo */
+@media screen and (max-width: 930px) {
+    .cta_conteudo {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .cta_header {
+        flex-basis: 100%;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .cta_header h1 {
+        margin: auto;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    
+    .cta_header p {
+        margin: auto;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .cta_header a {
+        display: block;
+        text-align: center;
+    }
+
+    .cta_video {
+        flex-basis: 100%;
+    }
+
+    .cta_video iframe {
+        margin: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .cta_header {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cta_header {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .cta_header {
+        margin-top: -80px;
+    }
+}
+
+/* conexao responsivo*/
+@media screen and (max-width: 930px) {
+    .conexao_conteudo_01, .conexao_conteudo_02, .conexao_conteudo_03 {
+        flex-wrap: wrap;
+        width: 100%!important;
+        flex-basis: 100%;
+    }
+
+    .conexao_conteudo {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .conexao_conteudo img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* instrutor responsivo */
+@media screen and (max-width: 930px) {
+    .instrutor_header {
+        padding: 32px 0;
+    }
+
+    .instrutor_main_foto {
+        margin: auto;
+        margin-bottom: 32px;
+    }
+
+    .instrutor_main_foto img {
+        width: 100%;
+    }
+
+    .instrutor_main, .instrutor_imagens {
+        flex-wrap: wrap;
+    }
+
+    .instrutor_img_01, .instrutor_img_03 {
+        flex-basis: calc(50% - 10px);
+        margin: 5px;    
+    }
+
+    .instrutor_img_02 {
+        flex-basis: calc(100% - 10px);
+        margin: 5px;
+        order: 1;
+    }
+
+    .instrutor_main_texto h2 {
+        padding: 0px 0 16px 0;
+        width: 100%;
+    }
+
+    .instrutor_main_texto p {
+        padding: 0;
+    }
+
+    .instrutor_main_texto ul {
+        padding: 30px;
+    }
+
+}
+
+
+/* modulos responsivo */
+@media screen and (max-width: 930px) {
+    .modulos_box {
+        justify-content: space-around;
+        margin-bottom: 64px;
+    }
+
+    .modulos_box_int {
+        flex-basis: calc(50% - 15px);
+        margin: 7.5px;
+    }
+
+    .modulos_box p {
+        font-size: 20px;
+    }
+}
+
+
+/* bonus responsivo */
+@media screen and (max-width: 930px) {
+    .bonus_box {
+        justify-content: space-around;
+        margin-bottom: 64px;
+    }
+
+    .bonus_box_int {
+        flex-basis: calc(50% - 15px);
+        margin: 7.5px;
+    }
+
+    .bonus_box p {
+        font-size: 20px;
+}
+
+
+/* prova social responsivo */
+@media screen and (max-width: 930px) {
+    .prova_header h1 {
+        width: 100%;
+    }
+
+    .prova_header p {
+        width: 100%;
+    }
+
+    .prova_main {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .prova_box:nth-child(1) {
+        margin-left: 1000px;
+    }
+
+    .prova_box {
+        width: 100%!important;
+        flex-basis: 100%;
+    }
+
+    .prova_box h1 {
+        width: 360px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .prova_box:nth-child(1) {
+            margin-left: 1200px;
+        }
+    }
+}
+
+
+/* certificado responsivo */
+@media screen and (max-width: 930px) {
+    .certificado_conteudo h1 {
+        width: 100%;
+    }
+
+    .certificado_conteudo img {
+        width: 90%;
+    }
+}
+
+
+/* garantia responsivo */
+@media screen and (max-width: 930px) {
+    .garantia_conteudo h1 {
+        width: 100%;
+    }
+
+    .garantia_conteudo_main {
+        flex-wrap: wrap;
+    }
+    .garantia_img {
+        margin: auto;
+        margin-bottom: 32px;
+        width: 100%;
+    }
+
+    .garantia_texto {
+        padding: 0;
+    }
+
+    .garantia_conteudo h2 {
+        width: 100%;
+    }
+    .garantia_conteudo p {
+        width: 100%;
+    }
+}
+
+
+/* beneficios responsivo */
+@media screen and (max-width: 930px) {
+    .beneficios_conteudo {
+        flex-wrap: wrap;
+    }
+
+    .beneficios_oferta {
+        flex-wrap: wrap;
+    }
+
+    .beneficios_oferta img {
+        position: relative;
+        top: 155px;
+        right: 200px;
+
+        width: 140px;
+    }
+
+    .beneficios_oferta h1 {
+        position: inherit;
+        max-width: fit-content;
+        padding: 20px 45px;
+    }
+
+    .beneficios_oferta p {
+        position: inherit;
+    }
+
+    .beneficios_texto {
+        display: inline-table;
+    }
+
+    .beneficios_lista ul {
+        right: 0;
+        max-width: fit-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .beneficios_oferta img {
+        position: static;
+        margin-top: -80px;
+        margin-bottom: 32px;
+
+        width: 140px;
+    }
+
+    .beneficios_lista ul {
+        padding: 50px 60px 150px 60px;
+    }
+}
+
+
+/* motivacao responsivo */
+@media screen and (max-width: 930px) {
+    .motivacao_conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        padding: 24px 0;
+    }
+    
+    .motivacao_conteudo h1 {
+        padding: 0;
+        width: 100%;
+    }
+
+    .motivacao_conteudo img {
+        margin-bottom: 16px;
+    }
+}
+
+
+/* faq responsivo */
+@media screen and (max-width: 930px) {
+    .faq {
+        padding: 64px 8px;
+    }
+
+    .faq_box {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .faq_box_int:nth-child(1) {
+        margin-left: 2048px;
+    }
+
+    .faq_box_int {
+        width: 100%!important;
+        flex-basis: 100%;
+    }
+
+    .faq_box_int h2 {
+        width: 360px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq_box_int:nth-child(1) {
+        margin-left: 2170px;
+    }
+}
