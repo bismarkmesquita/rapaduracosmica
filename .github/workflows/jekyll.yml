@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: 'rapaduracosmica.com'
+      url: 'rapaduracosmicateste.com'
     needs: build
     steps:
       - name: Run a one-line script
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
-      url: 'rapaduracosmica.com'
+      url: 'rapaduracosmicateste.com'
     needs: build
     steps:
       - name: Run a one-line script
